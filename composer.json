@@ -11,17 +11,19 @@
     "license": "MIT",
     "require": {
         "php": "^7.1.3",
+        "bepsvpt/secure-headers": "^5.3",
         "fideloper/proxy": "^4.0",
+        "guzzlehttp/guzzle": "~6.0",
+        "intervention/image": "^2.3",
+        "laravel/cashier": "^8.0",
         "laravel/framework": "5.7.*",
         "laravel/tinker": "^1.0",
         "laravelcollective/html": "*",
         "nesbot/carbon": "^1.22",
-        "torann/geoip": "^1.0",
-        "guzzlehttp/guzzle": "~6.0",
-        "intervention/image": "^2.3",
-        "bepsvpt/secure-headers": "^5.3"
+        "torann/geoip": "^1.0"
     },
     "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.2",
         "beyondcode/laravel-dump-server": "^1.0",
         "filp/whoops": "^2.0",
         "fzaninotto/faker": "^1.4",
