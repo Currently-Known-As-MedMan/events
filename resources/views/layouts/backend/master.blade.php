@@ -16,6 +16,7 @@
       <meta name="description" content="#">
       <meta name="keywords" content="flat ui, Admin , Responsive, Landing, Bootstrap, App, Template, Mobile, iOS, Android, apple, creative app">
       <meta name="author" content="#">
+      <meta name="csrf-token" content="{{ csrf_token() }}">
       <!-- Favicon icon -->
       <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
       <!-- Google font-->

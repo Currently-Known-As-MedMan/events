@@ -16,6 +16,7 @@
     <meta name="description" content="#">
     <meta name="keywords" content="Flat ui, Admin , Responsive, Landing, Bootstrap, App, Template, Mobile, iOS, Android, apple, creative app">
     <meta name="author" content="#">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- Favicon icon -->
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <!-- Google font-->
@@ -666,15 +667,15 @@
 <![endif]-->
     <!-- Warning Section Ends -->
     <!-- Required Jquery -->
-    <script type="text/javascript" src="../bower_components/jquery/js/jquery.min.js"></script>
-    <script type="text/javascript" src="../bower_components/jquery-ui/js/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="../bower_components/popper.js/js/popper.min.js"></script>
+    <script type="text/javascript" src="packages/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="packages/jquery-ui/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="packages/popper.js/js/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
     <!-- jquery slimscroll js -->
-    <script type="text/javascript" src="../bower_components/jquery-slimscroll/js/jquery.slimscroll.js"></script>
+    <script type="text/javascript" src="packages/jquery-slimscroll/js/jquery.slimscroll.js"></script>
     <!-- modernizr js -->
-    <script type="text/javascript" src="../bower_components/modernizr/js/modernizr.js"></script>
-    <script type="text/javascript" src="../bower_components/modernizr/js/css-scrollbars.js"></script>
+    <script type="text/javascript" src="packages/modernizr/js/modernizr.js"></script>
+    <script type="text/javascript" src="packages/modernizr/js/css-scrollbars.js"></script>
 
 </body>
 
