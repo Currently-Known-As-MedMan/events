@@ -22,10 +22,44 @@ Route::get('/home', 'HomeController@index');
 
 Route::group(['middleware' => 'auth'], function () {
     /**
+     * Developer Routes
+     */
+    Route::group(['prefix' => 'dev'], function () {
+        Route::get('/index', 'DeveloperController@index');
+
+
+    });
+    
+    /**
      * Admin Routes
      */
     Route::group(['prefix' => 'admin'], function () {
 
 
     });
+
+    /**
+     * Client Routes
+     */
+    Route::group(['prefix' => 'client'], function () {
+
+
+    });
+
+    /**
+     * Event Routes
+     */
+    Route::group(['prefix' => 'event'], function () {
+
+
+    });
+
+    /**
+     * Group Routes
+     */
+    Route::group(['prefix' => 'group'], function () {
+
+
+    });
+
 });
