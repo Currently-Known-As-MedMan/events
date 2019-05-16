@@ -24,13 +24,13 @@
       <!-- Required Fremwork -->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
       <!-- themify icon -->
-      <link rel="stylesheet" type="text/css" href="icons/themify-icons/themify-icons.css">
+      <link rel="stylesheet" type="text/css" href="css/backend/themify-icons/themify-icons.css">
       <!-- ico font -->
-      <link rel="stylesheet" type="text/css" href="icons/icofont/css/icofont.css">
+      <link rel="stylesheet" type="text/css" href="css/backend/icofont/css/icofont.css">
       <!-- flag icon framework css -->
-      <link rel="stylesheet" type="text/css" href="packages/flag-icon/flag-icon.min.css">
+      <link rel="stylesheet" type="text/css" href="css/backend/flag-icons/css/flag-icon.min.css">
       <!--SVG Icons Animated-->
-      <link rel="stylesheet" type="text/css" href="icons/SVG-animated/svg-weather.css">
+      <link rel="stylesheet" type="text/css" href="css/backend/SVG-animated/svg-weather.css">
       <!-- Menu-Search css -->
       <link rel="stylesheet" type="text/css" href="packages/menu-search/css/component.css">
       <!-- Horizontal-Timeline css -->
@@ -40,26 +40,26 @@
       <!-- Calender css -->
       <link rel="stylesheet" type="text/css" href="packages/widget/calender/pignose.calendar.min.css">
       <!-- flag icon framework css -->
-      <link rel="stylesheet" type="text/css" href="packages/flag-icon/flag-icon.min.css">
+      <link rel="stylesheet" type="text/css" href="css/backend/flag-icons/css/flag-icon.min.css">
       <!-- Style.css -->
       <link rel="stylesheet" type="text/css" href="{{ asset('css/backend.css') }}">
       <!--color css-->
 
 
-      <link rel="stylesheet" type="text/css" href="assets/css/linearicons.css">
-      <link rel="stylesheet" type="text/css" href="assets/css/simple-line-icons.css">
-      <link rel="stylesheet" type="text/css" href="assets/css/ionicons.css">
-      <link rel="stylesheet" type="text/css" href="assets/css/jquery.mCustomScrollbar.css">
+      <link rel="stylesheet" type="text/css" href="css/backend/linearicons.css">
+      <link rel="stylesheet" type="text/css" href="css/backend/simple-line-icons.css">
+      <link rel="stylesheet" type="text/css" href="css/backend/ionicons.css">
+      <link rel="stylesheet" type="text/css" href="css/backend/jquery.mCustomScrollbar.css">
 
   </head>
 
   <body>
-    <!-- Pre-loader start -->
+    {{-- <!-- Pre-loader start -->
     <div class="theme-loader">
         <div class="ball-scale">
             <div></div>
         </div>
-    </div>
+    </div> --}}
     <!-- Pre-loader end -->
     <!-- Menu header start -->
     <div id="pcoded" class="pcoded">
@@ -75,7 +75,7 @@
                             <i class="ti-search"></i>
                         </a>
                         <a href="index.html">
-                            <img class="img-fluid" src="assets/images/logo.png" alt="Theme-Logo" />
+                            <img class="img-fluid" src="images/logo.png" alt="Theme-Logo" />
                         </a>
                         <a class="mobile-options">
                             <i class="ti-more"></i>
@@ -168,19 +168,19 @@
                                         <li class="col-sm-3">
                                             <h6 class="mega-menu-title">Gallery</h6>
                                             <div class="row m-b-20">
-                                                <div class="col-sm-4"><img class="img-fluid img-thumbnail" src="assets/images/mega-menu/01.jpg" alt="Gallery-1">
+                                                <div class="col-sm-4"><img class="img-fluid img-thumbnail" src="images/mega-menu/01.jpg" alt="Gallery-1">
                                                 </div>
-                                                <div class="col-sm-4"><img class="img-fluid img-thumbnail" src="assets/images/mega-menu/02.jpg" alt="Gallery-2">
+                                                <div class="col-sm-4"><img class="img-fluid img-thumbnail" src="images/mega-menu/02.jpg" alt="Gallery-2">
                                                 </div>
-                                                <div class="col-sm-4"><img class="img-fluid img-thumbnail" src="assets/images/mega-menu/03.jpg" alt="Gallery-3">
+                                                <div class="col-sm-4"><img class="img-fluid img-thumbnail" src="images/mega-menu/03.jpg" alt="Gallery-3">
                                                 </div>
                                             </div>
                                             <div class="row m-b-20">
-                                                <div class="col-sm-4"><img class="img-fluid img-thumbnail" src="assets/images/mega-menu/04.jpg" alt="Gallery-4">
+                                                <div class="col-sm-4"><img class="img-fluid img-thumbnail" src="images/mega-menu/04.jpg" alt="Gallery-4">
                                                 </div>
-                                                <div class="col-sm-4"><img class="img-fluid img-thumbnail" src="assets/images/mega-menu/05.jpg" alt="Gallery-5">
+                                                <div class="col-sm-4"><img class="img-fluid img-thumbnail" src="images/mega-menu/05.jpg" alt="Gallery-5">
                                                 </div>
-                                                <div class="col-sm-4"><img class="img-fluid img-thumbnail" src="assets/images/mega-menu/06.jpg" alt="Gallery-6">
+                                                <div class="col-sm-4"><img class="img-fluid img-thumbnail" src="images/mega-menu/06.jpg" alt="Gallery-6">
                                                 </div>
                                             </div>
                                             <button class="btn btn-primary btn-sm btn-block">Browse Gallery</button>
@@ -257,7 +257,7 @@
                                         </li>
                                         <li>
                                             <div class="media">
-                                                <img class="d-flex align-self-center" src="assets/images/user.png" alt="Generic placeholder image">
+                                                <img class="d-flex align-self-center" src="images/user.png" alt="Generic placeholder image">
                                                 <div class="media-body">
                                                     <h5 class="notification-user">John Doe</h5>
                                                     <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
@@ -267,7 +267,7 @@
                                         </li>
                                         <li>
                                             <div class="media">
-                                                <img class="d-flex align-self-center" src="assets/images/user.png" alt="Generic placeholder image">
+                                                <img class="d-flex align-self-center" src="images/user.png" alt="Generic placeholder image">
                                                 <div class="media-body">
                                                     <h5 class="notification-user">Joseph William</h5>
                                                     <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
@@ -277,7 +277,7 @@
                                         </li>
                                         <li>
                                             <div class="media">
-                                                <img class="d-flex align-self-center" src="assets/images/user.png" alt="Generic placeholder image">
+                                                <img class="d-flex align-self-center" src="images/user.png" alt="Generic placeholder image">
                                                 <div class="media-body">
                                                     <h5 class="notification-user">Sara Soudein</h5>
                                                     <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
@@ -295,7 +295,7 @@
                                 </li>
                                 <li class="user-profile header-notification">
                                     <a href="#!">
-                                        <img src="assets/images/user.png" alt="User-Profile-Image">
+                                        <img src="images/user.png" alt="User-Profile-Image">
                                         <span>John Doe</span>
                                         <i class="ti-angle-down"></i>
                                     </a>
@@ -349,22 +349,22 @@
                                     <div class="dummy-column">
                                         <h2>Popular</h2>
                                         <a class="dummy-media-object" href="#!">
-                                            <img src="assets/images/avatar-1.png" alt="PagePreloadingEffect" />
+                                            <img src="images/avatar-1.png" alt="PagePreloadingEffect" />
                                             <h3>Page Preloading Effect</h3>
                                         </a>
                                         <a class="dummy-media-object" href="#!">
-                                            <img src="assets/images/avatar-1.png" alt="DraggableDualViewSlideshow" />
+                                            <img src="images/avatar-1.png" alt="DraggableDualViewSlideshow" />
                                             <h3>Draggable Dual-View Slideshow</h3>
                                         </a>
                                     </div>
                                     <div class="dummy-column">
                                         <h2>Recent</h2>
                                         <a class="dummy-media-object" href="#!">
-                                            <img src="assets/images/avatar-1.png" alt="TooltipStylesInspiration" />
+                                            <img src="images/avatar-1.png" alt="TooltipStylesInspiration" />
                                             <h3>Tooltip Styles Inspiration</h3>
                                         </a>
                                         <a class="dummy-media-object" href="#!">
-                                            <img src="assets/images/avatar-1.png" alt="NotificationStyles" />
+                                            <img src="images/avatar-1.png" alt="NotificationStyles" />
                                             <h3>Notification Styles Inspiration</h3>
                                         </a>
                                     </div>
@@ -394,7 +394,7 @@
                             <div class="main-friend-list">
                                 <div class="media userlist-box" data-id="1" data-status="online" data-username="Josephin Doe" data-toggle="tooltip" data-placement="left" title="Josephin Doe">
                                     <a class="media-left" href="#!">
-                                        <img class="media-object img-circle" src="assets/images/avatar-1.png" alt="Generic placeholder image">
+                                        <img class="media-object img-circle" src="images/avatar-1.png" alt="Generic placeholder image">
                                         <div class="live-status bg-success"></div>
                                     </a>
                                     <div class="media-body">
@@ -403,7 +403,7 @@
                                 </div>
                                 <div class="media userlist-box" data-id="2" data-status="online" data-username="Lary Doe" data-toggle="tooltip" data-placement="left" title="Lary Doe">
                                     <a class="media-left" href="#!">
-                                        <img class="media-object img-circle" src="assets/images/task/task-u1.jpg" alt="Generic placeholder image">
+                                        <img class="media-object img-circle" src="images/task/task-u1.jpg" alt="Generic placeholder image">
                                         <div class="live-status bg-success"></div>
                                     </a>
                                     <div class="media-body">
@@ -412,7 +412,7 @@
                                 </div>
                                 <div class="media userlist-box" data-id="3" data-status="online" data-username="Alice" data-toggle="tooltip" data-placement="left" title="Alice">
                                     <a class="media-left" href="#!">
-                                        <img class="media-object img-circle" src="assets/images/avatar-2.png" alt="Generic placeholder image">
+                                        <img class="media-object img-circle" src="images/avatar-2.png" alt="Generic placeholder image">
                                         <div class="live-status bg-success"></div>
                                     </a>
                                     <div class="media-body">
@@ -421,7 +421,7 @@
                                 </div>
                                 <div class="media userlist-box" data-id="4" data-status="online" data-username="Alia" data-toggle="tooltip" data-placement="left" title="Alia">
                                     <a class="media-left" href="#!">
-                                        <img class="media-object img-circle" src="assets/images/task/task-u2.jpg" alt="Generic placeholder image">
+                                        <img class="media-object img-circle" src="images/task/task-u2.jpg" alt="Generic placeholder image">
                                         <div class="live-status bg-success"></div>
                                     </a>
                                     <div class="media-body">
@@ -430,7 +430,7 @@
                                 </div>
                                 <div class="media userlist-box" data-id="5" data-status="online" data-username="Suzen" data-toggle="tooltip" data-placement="left" title="Suzen">
                                     <a class="media-left" href="#!">
-                                        <img class="media-object img-circle" src="assets/images/task/task-u3.jpg" alt="Generic placeholder image">
+                                        <img class="media-object img-circle" src="images/task/task-u3.jpg" alt="Generic placeholder image">
                                         <div class="live-status bg-success"></div>
                                     </a>
                                     <div class="media-body">
@@ -439,7 +439,7 @@
                                 </div>
                                 <div class="media userlist-box" data-id="6" data-status="offline" data-username="Michael Scofield" data-toggle="tooltip" data-placement="left" title="Michael Scofield">
                                     <a class="media-left" href="#!">
-                                        <img class="media-object img-circle" src="assets/images/avatar-3.png" alt="Generic placeholder image">
+                                        <img class="media-object img-circle" src="images/avatar-3.png" alt="Generic placeholder image">
                                         <div class="live-status bg-danger"></div>
                                     </a>
                                     <div class="media-body">
@@ -448,7 +448,7 @@
                                 </div>
                                 <div class="media userlist-box" data-id="7" data-status="online" data-username="Irina Shayk" data-toggle="tooltip" data-placement="left" title="Irina Shayk">
                                     <a class="media-left" href="#!">
-                                        <img class="media-object img-circle" src="assets/images/avatar-4.png" alt="Generic placeholder image">
+                                        <img class="media-object img-circle" src="images/avatar-4.png" alt="Generic placeholder image">
                                         <div class="live-status bg-success"></div>
                                     </a>
                                     <div class="media-body">
@@ -457,7 +457,7 @@
                                 </div>
                                 <div class="media userlist-box" data-id="8" data-status="offline" data-username="Sara Tancredi" data-toggle="tooltip" data-placement="left" title="Sara Tancredi">
                                     <a class="media-left" href="#!">
-                                        <img class="media-object img-circle" src="assets/images/avatar-5.png" alt="Generic placeholder image">
+                                        <img class="media-object img-circle" src="images/avatar-5.png" alt="Generic placeholder image">
                                         <div class="live-status bg-danger"></div>
                                     </a>
                                     <div class="media-body">
@@ -466,7 +466,7 @@
                                 </div>
                                 <div class="media userlist-box" data-id="9" data-status="online" data-username="Samon" data-toggle="tooltip" data-placement="left" title="Samon">
                                     <a class="media-left" href="#!">
-                                        <img class="media-object img-circle" src="assets/images/avatar-1.png" alt="Generic placeholder image">
+                                        <img class="media-object img-circle" src="images/avatar-1.png" alt="Generic placeholder image">
                                         <div class="live-status bg-success"></div>
                                     </a>
                                     <div class="media-body">
@@ -475,7 +475,7 @@
                                 </div>
                                 <div class="media userlist-box" data-id="10" data-status="online" data-username="Daizy Mendize" data-toggle="tooltip" data-placement="left" title="Daizy Mendize">
                                     <a class="media-left" href="#!">
-                                        <img class="media-object img-circle" src="assets/images/task/task-u3.jpg" alt="Generic placeholder image">
+                                        <img class="media-object img-circle" src="images/task/task-u3.jpg" alt="Generic placeholder image">
                                         <div class="live-status bg-success"></div>
                                     </a>
                                     <div class="media-body">
@@ -484,7 +484,7 @@
                                 </div>
                                 <div class="media userlist-box" data-id="11" data-status="offline" data-username="Loren Scofield" data-toggle="tooltip" data-placement="left" title="Loren Scofield">
                                     <a class="media-left" href="#!">
-                                        <img class="media-object img-circle" src="assets/images/avatar-3.png" alt="Generic placeholder image">
+                                        <img class="media-object img-circle" src="images/avatar-3.png" alt="Generic placeholder image">
                                         <div class="live-status bg-danger"></div>
                                     </a>
                                     <div class="media-body">
@@ -493,7 +493,7 @@
                                 </div>
                                 <div class="media userlist-box" data-id="12" data-status="online" data-username="Shayk" data-toggle="tooltip" data-placement="left" title="Shayk">
                                     <a class="media-left" href="#!">
-                                        <img class="media-object img-circle" src="assets/images/avatar-4.png" alt="Generic placeholder image">
+                                        <img class="media-object img-circle" src="images/avatar-4.png" alt="Generic placeholder image">
                                         <div class="live-status bg-success"></div>
                                     </a>
                                     <div class="media-body">
@@ -502,7 +502,7 @@
                                 </div>
                                 <div class="media userlist-box" data-id="13" data-status="offline" data-username="Sara" data-toggle="tooltip" data-placement="left" title="Sara">
                                     <a class="media-left" href="#!">
-                                        <img class="media-object img-circle" src="assets/images/task/task-u3.jpg" alt="Generic placeholder image">
+                                        <img class="media-object img-circle" src="images/task/task-u3.jpg" alt="Generic placeholder image">
                                         <div class="live-status bg-danger"></div>
                                     </a>
                                     <div class="media-body">
@@ -511,7 +511,7 @@
                                 </div>
                                 <div class="media userlist-box" data-id="14" data-status="online" data-username="Doe" data-toggle="tooltip" data-placement="left" title="Doe">
                                     <a class="media-left" href="#!">
-                                        <img class="media-object img-circle" src="assets/images/avatar-1.png" alt="Generic placeholder image">
+                                        <img class="media-object img-circle" src="images/avatar-1.png" alt="Generic placeholder image">
                                         <div class="live-status bg-success"></div>
                                     </a>
                                     <div class="media-body">
@@ -520,7 +520,7 @@
                                 </div>
                                 <div class="media userlist-box" data-id="15" data-status="online" data-username="Lary" data-toggle="tooltip" data-placement="left" title="Lary">
                                     <a class="media-left" href="#!">
-                                        <img class="media-object img-circle" src="assets/images/task/task-u1.jpg" alt="Generic placeholder image">
+                                        <img class="media-object img-circle" src="images/task/task-u1.jpg" alt="Generic placeholder image">
                                         <div class="live-status bg-success"></div>
                                     </a>
                                     <div class="media-body">
@@ -541,7 +541,7 @@
                 </div>
                 <div class="media chat-messages">
                     <a class="media-left photo-table" href="#!">
-                        <img class="media-object img-circle m-t-5" src="assets/images/avatar-1.png" alt="Generic placeholder image">
+                        <img class="media-object img-circle m-t-5" src="images/avatar-1.png" alt="Generic placeholder image">
                     </a>
                     <div class="media-body chat-menu-content">
                         <div class="">
@@ -559,7 +559,7 @@
                     </div>
                     <div class="media-right photo-table">
                         <a href="#!">
-                            <img class="media-object img-circle m-t-5" src="assets/images/avatar-2.png" alt="Generic placeholder image">
+                            <img class="media-object img-circle m-t-5" src="images/avatar-2.png" alt="Generic placeholder image">
                         </a>
                     </div>
                 </div>
@@ -2643,7 +2643,7 @@
                                                 <div class="user-card-block card">
                                                     <div class="card-block">
                                                         <div class="top-card text-center">
-                                                            <img src="assets/images/widget/user1.png" class="img-responsive" alt="">
+                                                            <img src="images/widget/user1.png" class="img-responsive" alt="">
                                                         </div>
                                                         <div class="card-contain text-center p-t-40">
                                                             <h5 class="text-capitalize p-b-10">Gregory Johnes</h5>
@@ -3020,7 +3020,7 @@
                                                                 </thead>
                                                                 <tbody>
                                                                     <tr>
-                                                                        <td><a href="#!"><img class="img-responsive" src="assets/images/widget/prod1.jpg" alt="chat-user"></a>
+                                                                        <td><a href="#!"><img class="img-responsive" src="images/widget/prod1.jpg" alt="chat-user"></a>
                                                                         </td>
                                                                         <td>Leisure Suit Casual</td>
                                                                         <td>3BSD59</td>
@@ -3030,7 +3030,7 @@
                                                                         <td>2</td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td><a href="#!"><img class="img-responsive" src="assets/images/widget/prod4.jpg" alt="chat-user"></a>
+                                                                        <td><a href="#!"><img class="img-responsive" src="images/widget/prod4.jpg" alt="chat-user"></a>
                                                                         </td>
                                                                         <td>Leisure Suit Casual</td>
                                                                         <td>3BSD59</td>
@@ -3040,7 +3040,7 @@
                                                                         <td>2</td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td><a href="#!"><img class="img-responsive" src="assets/images/widget/prod2.jpg" alt="chat-user"></a>
+                                                                        <td><a href="#!"><img class="img-responsive" src="images/widget/prod2.jpg" alt="chat-user"></a>
                                                                         </td>
                                                                         <td>Leisure Suit Casual</td>
                                                                         <td>3BSD59</td>
@@ -3050,7 +3050,7 @@
                                                                         <td>2</td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td><a href="#!"><img class="img-responsive" src="assets/images/widget/prod3.jpg" alt="chat-user"></a>
+                                                                        <td><a href="#!"><img class="img-responsive" src="images/widget/prod3.jpg" alt="chat-user"></a>
                                                                         </td>
                                                                         <td>Leisure Suit Casual</td>
                                                                         <td>3BSD59</td>
@@ -3091,31 +3091,31 @@
         <ul class="iew-download">
             <li>
                 <a href="http://www.google.com/chrome/">
-                    <img src="assets/images/browser/chrome.png" alt="Chrome">
+                    <img src="images/browser/chrome.png" alt="Chrome">
                     <div>Chrome</div>
                 </a>
             </li>
             <li>
                 <a href="https://www.mozilla.org/en-US/firefox/new/">
-                    <img src="assets/images/browser/firefox.png" alt="Firefox">
+                    <img src="images/browser/firefox.png" alt="Firefox">
                     <div>Firefox</div>
                 </a>
             </li>
             <li>
                 <a href="http://www.opera.com">
-                    <img src="assets/images/browser/opera.png" alt="Opera">
+                    <img src="images/browser/opera.png" alt="Opera">
                     <div>Opera</div>
                 </a>
             </li>
             <li>
                 <a href="https://www.apple.com/safari/">
-                    <img src="assets/images/browser/safari.png" alt="Safari">
+                    <img src="images/browser/safari.png" alt="Safari">
                     <div>Safari</div>
                 </a>
             </li>
             <li>
                 <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
-                    <img src="assets/images/browser/ie.png" alt="">
+                    <img src="images/browser/ie.png" alt="">
                     <div>IE (9 & above)</div>
                 </a>
             </li>

@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
 Auth::routes();
@@ -21,13 +21,26 @@ Route::get('/home', 'HomeController@index');
 
 
 Route::group(['middleware' => 'auth'], function () {
+
     /**
-     * Developer Routes
+     * Backend Routes
      */
-    Route::group(['prefix' => 'dev'], function () {
-        Route::get('/index', 'DeveloperController@index');
+    Route::group(['prefix' => 'backend'], function () {
+        Route::get('/index', 'BackendController@index');
 
+        /**
+         * Developer Routes
+         */
+        Route::group(['prefix' => 'dev'], function () {
+            Route::get('/index', 'DeveloperControll@index');
+        });
 
+        /**
+         * Admin Routes
+         */
+        Route::group(['prefix' => 'admin'], function () { 
+            
+        });
     });
     
     /**
